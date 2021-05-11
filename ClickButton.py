@@ -6,7 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 driver = webdriver.Chrome(ChromeDriverManager().install())
  
 # URL of website
-url = "file:///C:/Users/drake/Downloads/HTMLFiles/index.html"
+url = "https://github.com/drakel27/AutomaticButton/blob/main/index.html"
  
 # Opening the website
 driver.get(url)
