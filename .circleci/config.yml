@@ -25,7 +25,6 @@ jobs: # A basic unit of work in a run
       - run: sudo chown -R circleci:circleci /usr/local/bin
       - run: sudo chown -R circleci:circleci /usr/local/lib/python3.6/site-packages
       - checkout
-      - run: pip install -r requirements/dev.txt
       - run: mkdir test-reports
       - run:
           name: Download Selenium
